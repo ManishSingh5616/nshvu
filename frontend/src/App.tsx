@@ -25,9 +25,6 @@ const numberFormat = new Intl.NumberFormat("en-GB", {
   maximumFractionDigits: 0,
 });
 
-const decimalFormat = new Intl.NumberFormat("en-GB", {
-  maximumFractionDigits: 1,
-});
 
 function formatNumber(value: number | null | undefined) {
   return value == null || !Number.isFinite(value)
