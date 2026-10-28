@@ -249,17 +249,7 @@ Live application: https://nshvu-eta.vercel.app/
 
 ## AI Tools
 
-AI assistance was used during development to help with implementation, debugging, UI development, Docker configuration, documentation, and deployment troubleshooting. The project uses explicit data-processing code and metric formulas for its calculations; AI assistance does not independently validate forecast accuracy.
-
-## Future Improvements
-
-- Verify the forecast publication cutoff against the precise trading decision time.
-- Add explicit timestamp normalization and validation for all source records.
-- Report missing and duplicate records before and after processing.
-- Add tests for forecast-vintage selection and hourly aggregation.
-- Include daily and time-of-day error breakdowns.
-- Add automated data-quality checks and reproducible evaluation reports.
-- Improve production monitoring and API error reporting.
+AI assistance was used during development to help with implementation, debugging, UI development and Docker configuration troubleshooting. The project uses explicit data-processing code and metric formulas for its calculations; AI assistance does not independently validate forecast accuracy.
 
 ## Summary
 
