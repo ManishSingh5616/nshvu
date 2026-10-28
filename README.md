@@ -105,31 +105,23 @@ The resulting processed dataset contains the hourly actual and forecast generati
 
 Let \(F_t\) be forecast generation and \(A_t\) be actual generation for matched hour \(t\). Define the error as:
 
-\[
-e_t = F_t - A_t
-\]
+$$e_t = F_t - A_t$$
 
 ### Mean Absolute Error (MAE)
 
-\[
-MAE = \frac{1}{n}\sum_{t=1}^{n}|e_t|
-\]
+$$MAE = \frac{1}{n}\sum_{t=1}^{n}\vert{}e_t\vert{}$$
 
 Measures the average absolute forecast error in MW. Lower is better.
 
 ### Root Mean Squared Error (RMSE)
 
-\[
-RMSE = \sqrt{\frac{1}{n}\sum_{t=1}^{n}e_t^2}
-\]
+$$RMSE = \sqrt{\frac{1}{n}\sum_{t=1}^{n}e_t^2}$$
 
 Penalizes larger errors more heavily. Lower is better.
 
 ### Forecast Bias
 
-\[
-Bias = \frac{1}{n}\sum_{t=1}^{n}e_t
-\]
+$$Bias = \frac{1}{n}\sum_{t=1}^{n}e_t$$
 
 - Positive bias: forecasts tend to overestimate generation.
 - Negative bias: forecasts tend to underestimate generation.
